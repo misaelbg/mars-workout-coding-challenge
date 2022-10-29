@@ -1,0 +1,19 @@
+{
+  "name": "mars-workout-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misaelbg/mars-workout-coding-challenge.git"
+  },
+  "author": "Misael Borges <misa-er@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misaelbg/mars-workout-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/misaelbg/mars-workout-coding-challenge#readme"
+}
