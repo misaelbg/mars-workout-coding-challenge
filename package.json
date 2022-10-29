@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/misaelbg/mars-workout-coding-challenge/issues"
   },
-  "homepage": "https://github.com/misaelbg/mars-workout-coding-challenge#readme"
+  "homepage": "https://github.com/misaelbg/mars-workout-coding-challenge#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^13.0.0"
+  }
 }
