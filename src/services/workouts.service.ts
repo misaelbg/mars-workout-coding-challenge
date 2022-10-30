@@ -3,11 +3,9 @@ import { GetResponse } from "@/types/http.type";
 
 class WorkoutsService {
   binId: string;
-  binVersion: string;
 
   public constructor() {
     this.binId = "635d64d62b3499323bee96a8";
-    this.binVersion = "0";
   }
 
   public getAll() {
