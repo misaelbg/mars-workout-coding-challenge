@@ -1,3 +1,4 @@
+import "@/styles/base.css";
 import type { NextPage } from "next";
 import Layout from "@/components/Layout";
 import type { AppProps } from "next/app";
