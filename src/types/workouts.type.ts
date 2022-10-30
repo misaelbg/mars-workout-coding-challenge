@@ -9,3 +9,11 @@ export type Workout = {
   trainerId: string;
   duration: number;
 };
+
+export type WorkoutCardProps = {
+  workout: Workout;
+};
+
+export type WorkoutGridProps = {
+  workouts: Workout[],
+};
