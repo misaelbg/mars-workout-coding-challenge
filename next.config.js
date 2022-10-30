@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['image.mux.com'],
+    domains: ['s3.amazonaws.com', 'cgcdn.s3.amazonaws.com', 'virtual-library.s3.amazonaws.com'],
   },
 };
 

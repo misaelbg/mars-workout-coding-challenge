@@ -1,4 +1,6 @@
+import "@/styles/base.css";
 import type { NextPage } from "next";
+import Layout from "@/components/Layout";
 import type { AppProps } from "next/app";
 import { Toaster } from "react-hot-toast";
 import { ReactElement, ReactNode } from "react";
@@ -18,11 +20,17 @@ const App = ({
   Component,
   pageProps: { session, ...pageProps },
 }: AppPropsAndLayout) => {
+  const getLayout =
+    Component.getLayout ?? ((page) => <Layout content={page} />);
+
   return (
     <QueryClientProvider client={queryClient}>
+      {getLayout(<Component {...pageProps} />)}
       <div>
         <Toaster />
       </div>
     </QueryClientProvider>
   );
 };
+
+export default App;
