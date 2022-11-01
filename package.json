@@ -6,7 +6,8 @@
   "scripts": {
     "start": "next start",
     "lint": "next lint",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -39,5 +40,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0"
+  },
+  "engines": {
+    "node": "17.X"
   }
 }
