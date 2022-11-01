@@ -6,7 +6,7 @@ const Layout = ({ content }: LayoutProps) => {
   return (
     <>
       <Nav />
-      <main className="mx-auto max-w-full md:max-w-6xl min-h-screen px-5">
+      <main className="mx-auto max-w-full md:max-w-6xl min-h-screen mt-20 px-5">
         {content}
       </main>
       <Footer />

@@ -17,3 +17,8 @@ export type WorkoutCardProps = {
 export type WorkoutGridProps = {
   workouts: Workout[],
 };
+
+export type WorkoutPageProps = {
+  selected: Workout,
+  playlist: Workout[],
+};

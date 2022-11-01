@@ -11,13 +11,14 @@ const Logo = ({ width, height, text }: LogoProps) => {
   return (
     <Link href="/" className="flex justify-center items-center" passHref>
       <Image
+        className="mr-3 h-6 sm:h-9"
         alt={text || logoAltDefault}
         height={height}
         src={logoUrl}
         width={width}
       />
       {text && (
-        <span className="inline-block ml-3 font-medium truncate text-slate-700">
+        <span className="logo-text self-center text-xl font-semibold whitespace-nowrap dark:text-white">
           {text}
         </span>
       )}

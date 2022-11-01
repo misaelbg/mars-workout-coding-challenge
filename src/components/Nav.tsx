@@ -1,7 +1,6 @@
-import Logo from "@/common/components/Logo";
 import Head from "@/common/components/Head";
-import HomeButton from "@/common/components/nav/HomeButton";
-import LoginButton from "@/common/components/nav/LoginButton";
+import Logo from "@/common/components/nav/Logo";
+import PromoButton from "@/common/components/nav/PromoButton";
 
 const Nav = () => {
   return (
@@ -11,17 +10,12 @@ const Nav = () => {
         description="Frontend Coding Challenge - Created by @misaelbg"
       />
 
-      <nav className="p-4 mb-6 flex items-center space-x-3">
-        <ul className="flex gap-2">
-          <li>
-            <HomeButton />
-          </li>
-        </ul>
-        <div className="flex-1 flex justify-center">
-          <Logo width={160} height={33} text="Workouts Library" />
-        </div>
-        <div className="text-right text-sm">
-          <LoginButton />
+      <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div className="container flex flex-wrap justify-between items-center mx-auto">
+          <Logo width={190} height={40} text="Workouts Library" />
+          <div className="flex md:order-2">
+            <PromoButton />
+          </div>
         </div>
       </nav>
     </>
